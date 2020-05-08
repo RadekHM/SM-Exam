@@ -1,0 +1,1 @@
+C:\Users\radek\AppData\Local\Programs\Python\Python38-32\python.exe C:\Users\radek\PycharmProjects\SE_exam\se_exam.py

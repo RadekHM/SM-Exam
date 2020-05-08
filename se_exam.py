@@ -40,8 +40,8 @@ class TestIdexpMath(unittest.TestCase):
         "wrong params"
         with self.assertRaises(TypeError) as err:
             my_ldexp("test")
-        with self.assertRaises(ValueError) as err:
-            my_ldexp(set([42, 62]))
+        with self.assertRaises(TypeError) as err:
+            my_ldexp([])
 
 
 if __name__ == '__main__':
