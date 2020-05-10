@@ -3,7 +3,7 @@ import unittest
 import math
 
 def my_ldexp(entry_x, entry_i):
-    'use only lists'
+    'use only integers'
     if not entry_x:
         raise TypeError("x cannot be empty")
     if not entry_i:
